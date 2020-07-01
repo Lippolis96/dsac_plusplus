@@ -40,7 +40,7 @@ def loss_pose(R_world_to_cam_est, transl_w_to_cam_estimated, R_cam_to_world_true
 
     # error angle degrees, translation in centimeters
     # error = thet + error_t
-    error = torch.max(thet, error_t/10)
+    error = torch.max(thet, error_t)
 
     if testing:
         return thet, error_t
