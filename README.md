@@ -1,7 +1,8 @@
 # (DSAC++)++
 ## Intro
 If you are looking for the original DSAC implementations by Brachmann et all. please head to https://github.com/vislearn/LessMore  
-Since our code builds upon the DSAC++ approach, it might be useful to familiarize yourself with the original paper and codebase before you run our code.
+Since our code builds upon the DSAC++ approach, it might be useful to familiarize yourself with the original paper and codebase before you run our code.  
+We also use rendered depth images provided by the original dsac team at the link above.
 
 ## Running (DSAC++)++
 The three training steps can be run by using respectively train_obj.py (L1 loss), train_repro.py (repro loss) and train_dsac.py (expected pose loss).  
